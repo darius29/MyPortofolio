@@ -73,6 +73,16 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Laptop presentation",
+    des: "Explore an easy-to-use platform for creating and delivering professional laptop presentations.",
+    img: "./laptop-presentation.jpeg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://laptop-presentation.netlify.app/",
+    sourceCode: "https://github.com/darius29/Laptop-presentation",
+  },
+
+  {
+    id: 2,
     title: "Crown Store",
     des: "From Crown Clothing you can buy the latest clothing items.",
     img: "./crwn.png",
@@ -81,7 +91,7 @@ export const projects = [
     sourceCode: "https://github.com/darius29/CRWN",
   },
   {
-    id: 2,
+    id: 3,
     title: "Todo App",
     des: "Here is a Todo list!",
     img: "./todo.png",
@@ -95,7 +105,7 @@ export const projects = [
     sourceCode: "https://github.com/darius29/Todo",
   },
   {
-    id: 3,
+    id: 4,
     title: "RoboFriends",
     des: "Search and find out which is your favorite robot.",
     img: "./robot.png",
@@ -109,7 +119,7 @@ export const projects = [
     sourceCode: "https://github.com/darius29/robofriends",
   },
   {
-    id: 4,
+    id: 5,
     title: "Rick and Morty Character Search App",
     des: "This project is a web application that allows users to search for characters from the popular TV show `Rick and Morty`. It utilizes the Rick and Morty API to fetch character data and display it in a user-friendly interface. Users can search by character name, view detailed information about each character, and filter results based on various criteria. The application features a responsive design and interactive elements to enhance the user experience.",
     img: "/rick-morty.jpeg",
@@ -123,7 +133,7 @@ export const projects = [
     sourceCode: "https://github.com/darius29/Rick-Morty",
   },
   {
-    id: 5,
+    id: 6,
     title: "Birthday Tracker",
     des: "A web-based application designed to help users track and manage birthdays.",
     img: "/birthday-tracker.jpeg",
@@ -137,7 +147,7 @@ export const projects = [
     sourceCode: "https://github.com/darius29/Rick-Morty",
   },
   {
-    id: 6,
+    id: 7,
     title: "Live Weather",
     des: "Live Weather is a dynamic web application that provides real-time weather updates for various locations.",
     img: "/live-weather.jpeg",
