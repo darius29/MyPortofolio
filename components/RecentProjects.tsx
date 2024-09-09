@@ -29,7 +29,7 @@ const RecentProjects = () => {
                   className="flex flex-col lg:text-xl md:text-xs text-sm text-purple h-full">
                   <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[40vh] h-[30vh] mb-10">
                     <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                      <Image
+                      <img
                         src={img}
                         alt={title}
                         className="w-full h-full object-cover"
@@ -57,6 +57,7 @@ const RecentProjects = () => {
                         <Image
                           src={icon}
                           alt={icon}
+                          layout="fill"
                           className="p-2"
                         />
                       </div>
