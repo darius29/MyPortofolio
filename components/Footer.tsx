@@ -7,7 +7,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer
-      className="w-full pb-10 mb-[100px] md:mb-5"
+      className="w-full pb-10 mb-10 md:mb-5"
       id="contact">
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
@@ -33,7 +33,7 @@ const Footer = () => {
           Copyright © 2024 Darius-Gabriel Urechiatu
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6 ">
+        <div className="flex items-center gap-3 md:gap-4">
           {socialMedia.map((profile) => (
             <div
               key={profile.id}
@@ -43,7 +43,7 @@ const Footer = () => {
                 target="_blank">
                 <Image
                   src={profile.img}
-                  alt={profile.img}
+                  alt={profile.alt}
                   width={20}
                   height={20}
                 />

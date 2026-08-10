@@ -11,11 +11,11 @@ const Experience = () => {
         <span className="text-purple"> work experience</span>
       </h1>
 
-      <div className="w-full mt-12 mb-8 grid lg:grid-cols-4 grid-cols-1 gap-10">
+      <div className="w-full mt-12 mb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {workExperience.map((card) => (
           <Button
             className="flex-1 text-white border-neutral-200 dark:border-slate-800"
-            duration={Math.floor(Math.random() * 10000) + 10000}
+            duration={card.duration}
             key={card.id}
             borderRadius="1.75rem"
           >

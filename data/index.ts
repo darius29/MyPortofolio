@@ -11,7 +11,7 @@ export const gridItems = [
     id: 1,
     title: "I prioritize client collaboration, fostering open communication ",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[500px]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
@@ -243,7 +243,7 @@ export const companies = [
     img: "/ts.svg",
   },
   {
-    id: 1,
+    id: 3,
     name: "React",
     img: "/react_icon.svg",
   },
@@ -283,6 +283,7 @@ export const workExperience = [
       "HTML, CSS, JavaScript, Typescript, ReactJs, NextJs, Styled Components, Tailwind, NodeJs, GraphQl",
     desc: "Played a key role in driving user experience enhancements by implementing custom designs and developing innovative functionalities.",
     thumbnail: "/exp4.svg",
+    duration: 15000,
   },
   {
     id: 2,
@@ -292,6 +293,7 @@ export const workExperience = [
       "HTML, CSS, JavaScript, Typescript, ReactJs, NextJs, Styled Components, Tailwind, NodeJs, GraphQl",
     desc: "Played a key role in driving user experience enhancements by implementing custom designs and developing innovative functionalities.",
     thumbnail: "/exp4.svg",
+    duration: 20000,
   },
   {
     id: 3,
@@ -300,6 +302,7 @@ export const workExperience = [
     skills: "HTML, CSS, JavaScript, Typescript, React Query, React, Git",
     desc: "Created an internal tool dedicated to account management and leave planning, streamlining internal processes.",
     thumbnail: "/exp3.svg",
+    duration: 12000,
   },
   {
     id: 4,
@@ -308,6 +311,7 @@ export const workExperience = [
     skills: "HTML, CSS, JavaScript, Git, React Bootstrap",
     desc: "Implemented a custom design and updated old functionalities, enhancing both aesthetics and user interaction.",
     thumbnail: "/exp2.svg",
+    duration: 18000,
   },
   {
     id: 5,
@@ -316,6 +320,7 @@ export const workExperience = [
     skills: "WordPress, HTML, CSS, JavaScript",
     desc: "Developed and implemented custom WordPress functionalities, improving user experience and administrative efficiency.",
     thumbnail: "/exp1.svg",
+    duration: 25000,
   },
 ];
 
@@ -323,21 +328,25 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    alt: "GitHub",
     link: "https://github.com/darius29",
   },
   {
     id: 2,
     img: "/linkedin.svg",
+    alt: "LinkedIn",
     link: "https://www.linkedin.com/in/darius-gabriel-urechiatu-0b032119b/",
   },
   {
     id: 3,
     img: "/facebook.svg",
+    alt: "Facebook",
     link: "https://www.facebook.com/darius.gabriel74/",
   },
   {
     id: 4,
     img: "/instagram.svg",
+    alt: "Instagram",
     link: "https://www.instagram.com/darius.gabriel/",
   },
 ];

@@ -33,6 +33,12 @@ const config = {
           200: "rgba(17, 25, 40, 0.75)",
           300: "rgba(255, 255, 255, 0.125)",
         },
+        navy: {
+          DEFAULT: "#04071d",
+          dark: "#10132E",
+          darker: "#161a31",
+          overlay: "#13162d",
+        },
         white: {
           DEFAULT: "#FFF",
           100: "#BEC1DD",

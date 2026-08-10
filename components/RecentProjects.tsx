@@ -14,12 +14,12 @@ const RecentProjects = () => {
         <span className="text-purple"> recent projects</span>
       </h1>
 
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-2 mt-4">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-16 gap-y-16 mt-4">
         {projects.map(
           ({ id, title, des, img, iconLists, link, sourceCode }) => (
             <div
               key={id}
-              className="sm:h-[41rem] h-[41rem] lg:min-h-[41rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
+              className="h-auto sm:h-[41rem] lg:min-h-[41rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
               <PinContainer
                 title={title}
                 href={link}>
@@ -28,7 +28,7 @@ const RecentProjects = () => {
                   target="_blank"
                   className="flex flex-col lg:text-xl md:text-xs text-sm text-purple h-full">
                   <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[40vh] h-[30vh] mb-10">
-                    <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
+                    <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-navy-overlay">
                       <img
                         src={img}
                         alt={title}
@@ -41,7 +41,7 @@ const RecentProjects = () => {
                     {title}
                   </h1>
 
-                  <p className="lg:text-xl lg:font-normal font-light text-sm overflow-hidden overflow-ellipsis h-12">
+                  <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
                     {des}
                   </p>
                 </a>
@@ -56,9 +56,9 @@ const RecentProjects = () => {
                         }}>
                         <Image
                           src={icon}
-                          alt={icon}
-                          layout="fill"
-                          className="p-2"
+                          alt=""
+                          fill
+                          className="p-2 object-contain"
                         />
                       </div>
                     ))}
