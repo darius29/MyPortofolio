@@ -72,6 +72,14 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 0,
+    title: "SDG PRINT & DESIGN",
+    des: "Explore an easy-to-use platform for creating and delivering professional laptop presentations.",
+    img: "./printpeperete.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://printpeperete.netlify.app/",
+  },
+  {
     id: 1,
     title: "Laptop presentation",
     des: "Explore an easy-to-use platform for creating and delivering professional laptop presentations.",
@@ -269,19 +277,21 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "SC Conte Human SRL, Timisoara",
-    role: "WordPress Developer",
-    skills: "WordPress, HTML, CSS, JavaScript",
-    desc: "Developed and implemented custom WordPress functionalities, improving user experience and administrative efficiency.",
-    thumbnail: "/exp1.svg",
+    title: "DevHub, Timisoara",
+    role: "UI Developer",
+    skills:
+      "HTML, CSS, JavaScript, Typescript, ReactJs, NextJs, Styled Components, Tailwind, NodeJs, GraphQl",
+    desc: "Played a key role in driving user experience enhancements by implementing custom designs and developing innovative functionalities.",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 2,
-    title: "Nokia, Timisoara",
-    role: "Junior Frontend Developer",
-    skills: "HTML, CSS, JavaScript, Git, React Bootstrap",
-    desc: "Implemented a custom design and updated old functionalities, enhancing both aesthetics and user interaction.",
-    thumbnail: "/exp2.svg",
+    title: "Enovatika, Timisoara",
+    role: "Web Developer",
+    skills:
+      "HTML, CSS, JavaScript, Typescript, ReactJs, NextJs, Styled Components, Tailwind, NodeJs, GraphQl",
+    desc: "Played a key role in driving user experience enhancements by implementing custom designs and developing innovative functionalities.",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 3,
@@ -293,12 +303,19 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Enovatika, Timisoara",
-    role: "Web Developer",
-    skills:
-      "HTML, CSS, JavaScript, Typescript, ReactJs, NextJs, Styled Components, Tailwind, NodeJs, GraphQl",
-    desc: "Played a key role in driving user experience enhancements by implementing custom designs and developing innovative functionalities.",
-    thumbnail: "/exp4.svg",
+    title: "Nokia, Timisoara",
+    role: "Junior Frontend Developer",
+    skills: "HTML, CSS, JavaScript, Git, React Bootstrap",
+    desc: "Implemented a custom design and updated old functionalities, enhancing both aesthetics and user interaction.",
+    thumbnail: "/exp2.svg",
+  },
+  {
+    id: 5,
+    title: "SC Conte Human SRL, Timisoara",
+    role: "WordPress Developer",
+    skills: "WordPress, HTML, CSS, JavaScript",
+    desc: "Developed and implemented custom WordPress functionalities, improving user experience and administrative efficiency.",
+    thumbnail: "/exp1.svg",
   },
 ];
 
